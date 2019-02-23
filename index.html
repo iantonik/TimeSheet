@@ -14,11 +14,8 @@
 
 <body>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="js/search.js"></script>
+    
 
-</body>
 
 <div class="container">
     <!-- CONTAINER -->
@@ -57,12 +54,12 @@
                                 <!-- TABLE -->
                                 <thead>
                                     <tr>
-                                        <th>Employee Name</th>
-                                        <th>Role</th>
-                                        <th>Start Date</th>
-                                        <th>Months Worked</th>
-                                        <th>Monthy Rate</th>
-                                        <th>Total Billed</th>
+                                        <th id = "name">Employee Name</th>
+                                        <th id = "role">Role</th>
+                                        <th id = "start-date">Start Date</th>
+                                        <th id="months-worked">Months Worked</th>
+                                        <th id="rate">Monthy Rate</th>
+                                        <th id = "total-billed">Total Billed</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -120,5 +117,15 @@
         </div> <!-- COL 12 END-->
     </div> <!-- ROW END -->
 </div> <!-- CONTAINER END -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+
+
+</body>
 
 </html>
