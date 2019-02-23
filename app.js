@@ -12,7 +12,13 @@
 //on click to push data to table
 
 var name;
-var 
+var role;
+var startDate;
+var monthsWorked;
+var rate;
+var totalBilled;
+
+
 
 
 $( "#" ).on( "click", function() {
