@@ -1,8 +1,6 @@
 
-<<<<<<< HEAD
 
 
-=======
   var config = {
     apiKey: "AIzaSyAQu_-TVUqBxDYv51bOpYlTOXb2wDLeffs",
     authDomain: "timesheet-e74e8.firebaseapp.com",
@@ -25,11 +23,16 @@ var totalBilled;
 
 
 
-$( "#" ).on( "click", function() {
+$("#submit").on( "click", function(event) {
+event.preventDefault()
 
-    $("#btn2").click(function(){
-        $("#employeeName").html(`<td>${name}</td>`);
-      });
-    
-  });
->>>>>>> 2d8df18fdd6dd1e7c979002ddaf0fc2e379ff734
+    name = $("#name").val().trim();
+    role = $("#role").val().trim();
+    Start Date = $("#start-date").val().trim();
+    email = $("#email-input").val().trim();
+    age = $("#age-input").val().trim();
+    comment = $("#comment-input").val().trim();
+
+<th id="months-worked">Months Worked</th>
+<th id="rate">Monthy Rate</th>
+<th id = "total-billed">Total Billed</th>
